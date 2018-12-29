@@ -1,9 +1,7 @@
-# Example Flask site with Gunicorn and Hot Reloading
-check the code
+### Example Flask site with Gunicorn and Hot Reloading
 
-build using:
-docker build -t <NAME>:<TAG> .
+Build using:
+> docker build -t NAME:TAG .
 
-after building, run using:
-docker run -d -p <PORT>:8080 <NAME>:<TAG>
-
+After building, run (in detached mode) using:
+> docker run -d -p PORT:8080 NAME:TAG
