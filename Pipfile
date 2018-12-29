@@ -1,16 +1,16 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
-
-[packages]
-jupyter = "*"
-numpy = "*"
-pandas = "*"
-matplotlib = "*"
-scikit-learn = "*"
 
 [dev-packages]
 
+[packages]
+pandas = "*"
+numpy = "*"
+flask = "*"
+scipy = "*"
+matplotlib = "*"
+
 [requires]
-python_version = "3.6"
+python_version = "3.7"
